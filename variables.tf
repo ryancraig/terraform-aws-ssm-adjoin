@@ -15,6 +15,6 @@ variable "directory_ou" {
 }
 
 variable "dns_ip_addresses" {
-  type = "list"
+  type = list(string)
   description = "id of aws directory service AD domain."
 }
